@@ -7,7 +7,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const baseUrl = 'http://localhost:3000';
+const baseUrl = 'https://node-3-ragq.onrender.com';
 
 async function updateStudent(token, studentId, studentData) {
   try {
